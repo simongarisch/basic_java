@@ -1,0 +1,4 @@
+#Mon Jun 29 12:15:32 AEST 2020
+configuration*?=E8C871E2D296B97E8F045EA79469009D1398A081
+module-resource*?\:checkstyle-xpath-suppressions.xml=325396CAF20D726DBDED883666A0A98A9834213F
+module-resource*?\:checkstyle-suppressions.xml=DA2111FED30CB2B223949699CE199425D6268D7F
