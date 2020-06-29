@@ -1,4 +1,4 @@
-package basicJava;
+package basicjava;
 
 
 public class App 
