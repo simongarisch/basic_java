@@ -7,6 +7,7 @@
   <groupId>basicjava</groupId>
   <artifactId>basicjava</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
   <name>basicjava</name>
   <!-- FIXME change it to the project's website -->
@@ -69,6 +70,16 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+  
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>1.4.0</version>
+          <configuration>
+            <mainClass>basicjava.App</mainClass>
+          </configuration>
+        </plugin>
+
       </plugins>
     </pluginManagement>
   </build>
